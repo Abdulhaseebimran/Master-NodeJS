@@ -1,0 +1,15 @@
+// REST API - JSON
+
+GET /user - list all the user
+
+GET /user - get the user which ID is 1
+Dynamic path parameter
+GET /api/users/:id
+:id -> variable | Dynamic
+
+POST /user - create the new user
+
+PATCH /user/1 - Edit the user which ID is 1
+
+DELETE /user/id - DELETE the user which ID is 1
+
